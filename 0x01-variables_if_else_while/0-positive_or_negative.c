@@ -1,4 +1,4 @@
-#inlcude <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
@@ -24,7 +24,7 @@ else if (n == 0)
 {
 	printf("%i is equal to zero\n", n);
 }
-else if (n < o)
+else if (n < 0)
 {
 	printf("%i is negative\n", n);
 }
