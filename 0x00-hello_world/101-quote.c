@@ -6,7 +6,7 @@
  * Return: return 1 (that is return nothing)
  */
 
-int void(main)
+int main(void)
 {
 char e* = "and that piece of art is useful\" - Dora Korpar. 2015-10-19\n";
 fprintf(stderr, "%s", e);
