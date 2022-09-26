@@ -2,10 +2,9 @@
 
 /**
  * _strchr - locaes a character in a string
- * @s: string to check
- * @c: character to check for
- *
- * Return: pointer to spot in s with c or null
+ * @s: string to locate char
+ * @c: character to find
+ * Return: character value
  */
 char *_strchr(char *s, char c)
 {
