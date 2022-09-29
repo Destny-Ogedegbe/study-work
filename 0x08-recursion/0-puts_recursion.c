@@ -4,7 +4,7 @@
  * _puts_recursion - function entry point
  * @s: string param
  * Desc: prints a string followed by a new line
- *   
+ *
  * Return: void
  */
 void _puts_recursion(char *s)
