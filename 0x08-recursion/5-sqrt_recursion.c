@@ -11,7 +11,7 @@ int validate_sqr(int x, int y);
  */
 int _sqrt_recursion(int n)
 {
-	if (n == 0);
+	if (n == 0)
 	{
 		return (0);
 	}
