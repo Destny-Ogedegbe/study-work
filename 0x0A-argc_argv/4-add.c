@@ -16,13 +16,13 @@ int main(int argc, char *argv[])
 
 	if (argc == 1)
 	{
-        	printf("%d\n", 0);
+		printf("%d\n", 0);
 		return (0);
 	}
 	for (x = 1; x < argc; x++)
 	{
 		if (strtol(argv[x], &s, 10) == 0 || *s != '\0')
-		{		
+		{
 			printf("Error\n");
 			return (1);
 		}
