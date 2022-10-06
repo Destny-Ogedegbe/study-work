@@ -5,11 +5,11 @@
  * @s1: first string
  * @s2: second string
  *
- * Return: NULL in case of failurebut pionter to new string in
+ * Return: NULL in case of failure but pointer to new string in
  * case of success
  */
 
-char *str_contat(char *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 	char *concat_str;
 	int index, concat_index = 0,  len = 0;
